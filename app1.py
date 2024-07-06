@@ -18,7 +18,7 @@ def load_data():
 df = load_data()
 
 # Title and headers
-st.title('Diabetes Checkup')
+st.title('Diabetes Prediction')
 st.sidebar.header('Patient Data')
 st.subheader('Training Data Statistics')
 st.write(df.describe())
